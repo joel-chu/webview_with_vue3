@@ -21,6 +21,7 @@ class ButtonControl extends StatelessWidget {
                 controller == null) {
               print('controller is not ready');
             } else {
+              // controller.runJavascriptReturningResult(javaScriptString)
               // print(controller);
               controller.runJavascript(
                   'fromFlutter("from Flutter: press the button")');

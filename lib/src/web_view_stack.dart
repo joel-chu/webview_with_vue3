@@ -69,6 +69,6 @@ class _WebViewStackState extends State<WebViewStack> {
   // loading html assets
   Future<void> _loadIndexFromFlutterAsset(
       WebViewController controller, BuildContext context) async {
-    await controller.loadFlutterAsset('assets/basic/index.html');
+    await controller.loadFlutterAsset('assets/vue-app/dist/index.html');
   }
 }
